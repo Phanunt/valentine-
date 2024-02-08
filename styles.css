@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Pacifico';
+  src: url('path/to/pacifico.woff2') format('woff2'),
+       url('path/to/pacifico.woff') format('woff');
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+  }
+.text {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -80px;
+  font-size: 40px;
+  color: #FF007F;
+  font-family: "Cedarville Cursive", cursive;
+}
+  
+.morning {
+  padding-bottom: ;
+  font-size: 60px;
+  text-align: center;
+  color: #FF007F;
+  font-family: "Cedarville Cursive", cursive;
+}
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+  
+.button {
+    padding: 30px 95px;
+    margin: 0 30px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    
+  }
+  
+.button:hover {
+    background-color: #d32f2f;
+  }
+  
+.img {
+    margin-bottom: -20px;
+    margin-top: 50px;
+    border-radius: 100px;
+  }
+  
+.pic {
+  margin-top: 200px;
+  height: 250px;
+  width: 500px;
+  } 
+.new-picture {
+  margin-bottom: -10px;
+  } 
+
+  .moving-text-container {
+    position: absolute;
+    z-index: 9999;
+    background-color: #f44336; /* Background color */
+    color: white; /* Text color */
+    padding: 15px; /* Padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow */
+  }
+  
+  .moving-text {
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold font */
+  }
+  
+  
+.feb {
+  margin-bottom: 250px;
+  font-size: 50px;
+  color: purple;
+
+}
+
+.pop {
+  font-size: 30px;
+  position: absolute;
+  margin-top: 250px;
+  padding: 10px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow */
+  font-family: 'Pacifico', cursive; /* Apply the Pacifico font */
+}
+
+.image-container {
+  margin-top: 200px;
+}
+
+.old-picture {
+  margin-bottom:80px; 
+}
+
+.button-stuff {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.side-images {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-images img {
+  margin: 10px;
+}
+
+.left-side-images {
+  position:fixed;
+  top:0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side-images img {
+  margin: 10px;
+}
